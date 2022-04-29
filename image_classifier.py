@@ -1,5 +1,5 @@
-from utils import *
-import tensorflow as tf
+#from utils import *
+#import tensorflow as tf
 model = tf.keras.models.load_model('mobilenet_model.h5')
 
 import streamlit as st
